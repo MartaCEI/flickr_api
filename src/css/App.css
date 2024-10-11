@@ -1,0 +1,216 @@
+#root {
+  /* max-width: 80rem; */
+  margin: 0 auto;
+  /* padding: 32px; */
+  text-align: center;
+}
+
+
+/* ********************** CSS del header ********************* */
+.Header {
+  padding: 1em;
+  background-color: #007aff;
+  color: white;
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Header-a {
+  color: white;
+  text-decoration: none;
+}
+
+/* ********************** CSS de las secciones ********************* */
+
+.Section {
+  width: 100%;
+  max-height: 44rem;
+}
+
+.Section-container {
+  padding: 4rem 4rem 0 4rem;
+  max-width: 60rem;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.Left {
+  flex-flow: row-reverse nowrap;
+}
+
+.Section-right {
+  text-align: left;
+  max-width: 22rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.Section-hero-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.Section-h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.Section-p {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.714);
+}
+
+.Section-img-app {
+  width: 8rem;
+  margin: 2rem 0;
+}
+
+.Section-left {
+  max-width: 20rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Section:nth-of-type(2) .Section-container {
+  padding: 0 0 4rem 0;
+}
+
+.Section:nth-of-type(3) .Section-container {
+  padding: 0 0 4rem 0;
+}
+
+.Section-img {
+  width: 20rem;
+}
+
+/* ********************** CSS de las aplicaciones ********************* */
+
+
+.Aplicaiones {
+  width: 100%;
+  max-height: 44rem;
+  background-color: #cbcbcb;
+}
+
+.Aplicaciones-container {
+  margin: 0 auto;
+  max-width: 60rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem;
+  gap: 3rem;
+  justify-items: center
+}
+
+.Aplicaiones-div {
+  width: 13rem;
+  padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 1rem;
+}
+
+.Aplicaiones-img {
+  width: 2rem;
+}
+
+.Aplicaiones-h3 {
+  color: white;
+  font-size: 1em;
+}
+
+.Aplicaiones-div:nth-of-type(6) .Aplicaiones-h3 {
+  color: black;
+}
+
+/* ********************** CSS de las clientes ********************* */
+
+.Clients {
+  width: 100%;
+  max-height: 44rem;
+  background-color: white;
+}
+
+.Clients-container {
+  margin: 0 auto;
+  max-width: 60rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem;
+  gap: 3rem;
+  justify-items: center
+}
+
+.Client-div {
+  max-width: 13rem;
+  padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 1rem;
+  background-color: #cbcbcb;
+}
+
+.Client-img {
+  width: 6rem;
+}
+
+.Client-h3 {
+  color: black;
+  font-size: 0.8em;
+}
+
+/* ********************** CSS del footer ********************* */
+
+.Footer {
+  width: 100%;
+}
+
+.Footer-container {
+  margin: 0 auto;
+  max-width: 60rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.Footer-ul {  
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+.Footer-li {
+  list-style: none;
+}
+
+.Footer-a {}
+
+.Footer-img {}
+
+/* Ajustes responsivos
+@media (max-width: 48rem) {
+  .Section-hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.25rem;
+  }
+
+  .Section-flex {
+      max-width: 100%;
+  }
+
+  .hero-image {
+      width: 15.625rem;
+      margin-top: 1.25rem;
+  }
+} */
